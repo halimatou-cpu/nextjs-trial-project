@@ -1,0 +1,117 @@
+{
+	"books": [
+	  {
+		"id": 1,
+		"title": "The Great Gatsby",
+		"author": "F. Scott Fitzgerald",
+		"genre": "Fiction",
+		"publicationYear": 1925,
+		"isbn": "978-0-7432-7356-5",
+		"rating": 4.2,
+		"favorites": 12
+	  },
+	  {
+		"id": 2,
+		"title": "To Kill a Mockingbird",
+		"author": "Harper Lee",
+		"genre": "Fiction",
+		"publicationYear": 1960,
+		"isbn": "978-0-06-112008-4",
+		"rating": 4.5,
+		"favorites": 18
+	  },
+	  {
+		"title": "1984",
+		"author": "George Orwell",
+		"genre": "Science Fiction",
+		"publicationYear": 1949,
+		"isbn": "978-0-452-28423-4",
+		"rating": 4.3,
+		"favorites": 10
+	  },
+	  {
+		"title": "Pride and Prejudice",
+		"author": "Jane Austen",
+		"genre": "Classic",
+		"publicationYear": 1813,
+		"isbn": "978-0-06-112008-4",
+		"rating": 4.6,
+		"favorites": 15
+	  },
+	  {
+		"title": "The Hobbit",
+		"author": "J.R.R. Tolkien",
+		"genre": "Fantasy",
+		"publicationYear": 1937,
+		"isbn": "978-0-618-00221-1",
+		"rating": 4.7,
+		"favorites": 17
+	  }
+	],
+	"movies": [
+	  {
+		"id": 1,
+		"title": "Inception",
+		"director": "Christopher Nolan",
+		"genre": "Science Fiction",
+		"releaseYear": 2010,
+		"rating": 8.8,
+		"actors": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
+		"favorites": 25
+	  },
+	  {
+		"id": 2,
+		"title": "The Shawshank Redemption",
+		"director": "Frank Darabont",
+		"genre": "Drama",
+		"releaseYear": 1994,
+		"rating": 9.3,
+		"actors": ["Tim Robbins", "Morgan Freeman"],
+		"favorites": 32
+	  },
+	  {
+		"id": 3,
+		"title": "The Godfather",
+		"director": "Francis Ford Coppola",
+		"genre": "Drama",
+		"releaseYear": 1972,
+		"rating": 9.2,
+		"actors": ["Marlon Brando", "Al Pacino", "James Caan"],
+		"favorites": 28
+	  },
+	  {
+		"title": "Jurassic Park",
+		"director": "Steven Spielberg",
+		"genre": "Action",
+		"release_year": 1993,
+		"rating": 8.1,
+		"actors": ["Sam Neill", "Laura Dern", "Jeff Goldblum"],
+		"favorites": 15
+	  },
+	  {
+		"title": "Avatar",
+		"director": "James Cameron",
+		"genre": "Adventure",
+		"release_year": 2009,
+		"rating": 7.8,
+		"actors": ["Sam Worthington", "Zoe Saldana", "Sigourney Weaver"],
+		"favorites": 20
+	  },
+	  {
+		"title": "The Dark Knight",
+		"director": "Christopher Nolan",
+		"genre": "Action",
+		"release_year": 2008,
+		"rating": 9.0,
+		"actors": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+		"favorites": 30
+	  }
+	],
+	"genres": ["Fiction", "Science Fiction", "Drama", "Adventure"],
+	"authors": ["F. Scott Fitzgerald", "Harper Lee", "Christopher Nolan", "Frank Darabont"],
+	"userFavorites": {
+	  "books": [1, 2],
+	  "movies": [1, 2]
+	}
+  }
+  
